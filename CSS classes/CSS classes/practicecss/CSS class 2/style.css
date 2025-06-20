@@ -15,3 +15,54 @@ h1,h3{
     background-color: green;
     color: white;
 }
+nav ul li a{
+    color: hotpink;
+}
+.follow{
+    background-color: yellow;
+    color: purple;
+}
+p+h3{
+    text-decoration: underline;
+}
+.upvote+ button{
+    background-color: #b92b27;
+    color: white;
+}
+ input[type="text"]{
+    
+   
+    color: rgb(252, 32, 32);
+    
+}
+input[type ="password"]{
+    
+  
+    color: rgb(12, 229, 92);
+   
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+button:active {
+    background-color: #fa82ce;
+    color: rgb(9, 9, 9);
+
+}
+p:active {
+    color: rgb(12, 229, 92);
+    font-weight: bold;
+}
+input[type ="radio"]:checked + label {
+    background-color: #b92b27;
+    color: white;
+}
+p:nth-of-type(odd){
+    background-color: #fa82ce;
+}
+p::selection {
+    background-color: #b92b27;
+    color: white;
+}
