@@ -1,0 +1,147 @@
+.spotifyicon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 50px;
+}
+.spotifyicon:hover {
+    cursor: pointer;
+    
+}
+.spotifyicon:active {
+    transform: scale(0.9);
+
+
+}
+.homeicon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    border-radius: 50px;
+}
+.homeicon:hover {
+    cursor: pointer;
+}
+.homeicon:active {
+    transform: scale(0.9);
+}
+
+.div1 {   
+    width: 100%;
+    height: 60px;
+    
+    border-radius: 10px;
+
+}
+input[type="text"] {
+    width: 40%;
+    height: 40px;
+    background-color: #3d3838;
+    border: 1px solid #1db954;
+    color: white;
+    font-size: 20px;
+    margin-left: 150px; 
+    margin-top: 10px;
+    border-radius: 25px;
+    
+}
+div button {
+border: 1px solid  white;
+background-color: #3d3838;
+width: 40px;
+height: 40px;
+margin-left: 5px;
+
+
+border-radius: 50px;
+
+}
+button:hover {
+    cursor: pointer;
+
+}
+div button:active {
+    transform: scale(0.9);
+}
+div ul  {
+    list-style-type:  none;
+    display: inline-flex;
+    
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+div ul li a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: #1db954;
+}
+a:active {
+    color: #f835eb;
+}
+.span1 {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.span1:hover {
+    color: #1db954;
+}
+.span1:active {
+    color: #f835eb;
+}
+
+*{
+    background-color: black;
+}
+/* Add this to your CSS */
+.container {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  border: solid 1px;
+}
+
+/* Updated div2 */
+.div2 {
+    border:solid ;
+  width: 25%;
+  background-color: #3d3838;
+  border-radius: 10px;
+  height: auto; /* Let it expand as needed */
+  ;
+}
+
+/* Updated div3 */
+.div3 {
+    border: solid ;
+  width: 75%;
+  background-color: #3d3838;
+  border-radius: 10px;
+  height: auto;
+}
+
+.installicon{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    
+}
+.span2{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.span2:hover {
+    color: #1db954;
+}
+.span2:active {
+    color: #f835eb;
+}
