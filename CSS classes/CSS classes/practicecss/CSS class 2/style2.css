@@ -2,10 +2,86 @@
     width: 300px;
     height: 300px;
     background-color: rgba(12, 244, 244, 0.622);
+    transition: 1s;
+    box-shadow: 4px 4px 10px blue;
+    
+}
+
+
+#alpha:hover{
+    background-color: blue;
+    border-radius: 50%;
+   opacity: .5;
+    transform: rotate(360deg);
+    transform: translate(100px, 200px);
+    /* transform: scale(.75); */
 }
 #opacity{
     width: 300px;
     height: 300px;
     background-color: rgb(5, 5, 237);
+    box-shadow: 4px 4px 10px aqua;
+   
+    transition: 1s;
+}
+#opacity:hover{
+    border-radius: 100%;
+    background-color: aqua;
+
+    /* transform: rotate(360deg);  */
     opacity: .5;
+     transform: scale(.75);
+     transform: translate(100px, -200px);
+    
+}
+#seconddiv{
+    width: 100%;
+    height: 565px;
+   border: 3px;
+    
+}
+*{
+    background-color: black;
+   
+}
+
+*:hover{
+     background-image: url("backgroundimage.jpeg");
+     background-size: cover;
+}
+.face{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: white;
+}
+.mouth{
+    width: 100px;
+    height: 100px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: red;
+    position: absolute;
+    top: 1400px;
+    left: 100px;
+
+}
+.eye1{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 1290px;
+    left: 60px;
+}
+.eye2{
+ width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  position: absolute;
+  top: 1290px;
+    left: 200px;
+ 
+  display: inline-block;
 }
