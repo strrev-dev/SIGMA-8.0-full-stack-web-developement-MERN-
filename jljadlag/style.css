@@ -1,0 +1,32 @@
+.div1 {
+    width: 200px;
+    height: 300px;
+   display: inline-block;
+   vertical-align: top;
+   border: 1px solid gray;
+   box-shadow: 4px 4 px 8px black;
+   
+   
+}
+
+.img {
+    width: 100%;
+    margin-top: 40px;
+
+ 
+}
+.desc {
+    text-align: center;
+    padding-top: 60px;
+}
+.div1:hover {
+     background-color: black;
+     color: white;
+     box-shadow: 5px 5px 12px black;
+     transition: 1s;
+
+}
+.container {
+    text-align: center;
+
+}
