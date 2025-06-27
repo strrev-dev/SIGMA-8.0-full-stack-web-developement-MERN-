@@ -1,4 +1,4 @@
-.div1 {
+/* .div1 {
     width: 200px;
     height: 300px;
    display: inline-block;
@@ -29,4 +29,26 @@
 .container {
     text-align: center;
 
+} */
+
+.container {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    margin-left: 500px;
+    border: 2px solid green;
+    justify-content: space-evenly;
+
+
+    
+}
+img {
+    width:200px;
+   
+    
+}
+.div1 {
+    border: 1px solid grey;
 }
