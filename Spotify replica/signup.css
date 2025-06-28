@@ -1,0 +1,155 @@
+header {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: flex;
+
+    justify-content: center;
+
+}
+
+#img1 {
+    width: 50px;
+    height: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 200%;
+
+}
+
+* {
+    background-color: black;
+}
+
+h1 {
+    color: rgb(241, 239, 239);
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#form {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+input {
+    border: 2px solid grey;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+input[type="text"]::placeholder {
+    color: grey;
+    padding-left: 8px;
+    /* Color for the placeholder text */
+}
+
+input[type="text"] {
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    color: rgb(210, 204, 204);
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+    /* Color for the input text */
+
+}
+
+a {
+    color: #1ed760;
+
+}
+
+#button1 {
+    color: black;
+    background-color: #1ed760;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+button#button2,
+button#button3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    /* space between icon and text */
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+.image {
+    width: 50px;
+    height: 40px;
+    border-radius: 200%;
+    padding: 0px;
+}
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 30px 0;
+    gap: 10px;
+}
+
+.divider hr {
+    flex: 1;
+    height: 1px;
+    background-color: #888; /* Light gray line */
+    border: none;
+}
+
+.divider span {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+.hr-line {
+    width: 300px;
+    
+}
+
+.hr-line hr {
+    border: none;
+    height: 1px;
+    background-color: #888;
+    width: 100%;
+}
+
+footer {
+    padding: 20px;
+    margin-left: 30px;
+    font-size: small;
+}
+
+#button3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
