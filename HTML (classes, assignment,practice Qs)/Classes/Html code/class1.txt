@@ -1,0 +1,73 @@
+Introduction to HTML :
+FULL FORM :- HyperText Markup Language 
+Hypertext Markup Language (HTML) is the standard language used to create and design documents on the web. It allows you to structure content and apply various elements to it. Here's a breakdown of HTML:
+
+### 1. **Basic Structure of HTML Document**
+An HTML document is structured with a specific set of tags:
+
+```html
+<!DOCTYPE html> <!-- Declaration defining the document type -->
+<html> <!-- Root element of an HTML page -->
+<head> <!-- Contains meta-information about the document, such as title and links to scripts/styles -->
+    <title>Your Page Title</title> <!-- Title of the document that appears in the browser tab -->
+    <meta charset="UTF-8"> <!-- Character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design settings -->
+</head>
+<body> <!-- Contains the content of the document that is displayed in the browser -->
+    <h1>Hello, World!</h1> <!-- A heading -->
+    <p>This is a paragraph of text.</p> <!-- A paragraph -->
+</body>
+</html>
+```
+
+### 2. **Common HTML Tags**
+- **Structural Elements:**
+  - `<html>`: Root element of an HTML page.
+  - `<head>`: Container for metadata (data about data).
+  - `<title>`: Title of the document.
+  - `<body>`: Main content area of the document.
+
+- **Text Formatting:**
+  - `<h1>` to `<h6>`: Headings from largest to smallest.
+  - `<p>`: Paragraph.
+  - `<strong>`: Important text (usually bold).
+  - `<em>`: Emphasized text (usually italic).
+  - `<br>`: Line break.
+  - `<hr>`: Horizontal rule (line).
+
+- **Links and Images:**
+  - `<a href="url">`: Anchor tag for hyperlinks.
+  - `<img src="url" alt="description">`: Embeds an image.
+
+- **Lists:**
+  - `<ul>`: Unordered list.
+  - `<ol>`: Ordered list.
+  - `<li>`: List item.
+
+- **Tables:**
+  - `<table>`: Container for table data.
+  - `<tr>`: Table row.
+  - `<td>`: Table cell.
+  - `<th>`: Table header cell.
+
+- **Forms:**
+  - `<form>`: Container for form elements.
+  - `<input>`: Input field.
+  - `<textarea>`: Multi-line text input.
+  - `<button>`: Clickable button.
+
+### 3. **Attributes**
+HTML elements can have attributes that provide additional information about an element. Common attributes include:
+- `id`: Unique identifier for an element.
+- `class`: Specifies one or more class names for an element (for CSS styling).
+- `style`: Inline CSS for styling.
+
+### 4. **Semantic HTML**
+Semantic HTML refers to the use of HTML tags that convey meaning about the content within them, enhancing accessibility and SEO:
+- `<header>`: Defines a header for a document or section.
+- `<nav>`: Navigation section.
+- `<article>`: Self-contained content that could be distributed independently.
+- `<section>`: Thematic grouping of content.
+- `<footer>`: Footer for a document or section.
+
+Understanding these components helps in building structured, accessible, and well-designed web pages.

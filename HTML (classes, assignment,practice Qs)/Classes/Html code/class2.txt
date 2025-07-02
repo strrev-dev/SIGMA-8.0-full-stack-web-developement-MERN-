@@ -1,0 +1,6 @@
+<!-- Elements and  tags -->
+
+<p> the content</p>
+
+here the open and closing tag of p is called tags an the inside  it  what we called it as content of para(paragraph)
+the whole thing containing tags and the content we called it as Elements
