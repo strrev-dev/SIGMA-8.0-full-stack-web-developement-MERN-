@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simon Game</title>
+  <link rel="stylesheet" href="game.css">
+</head>
+<body>
+  <main class="container" role="main">
+    <h1 class="title">Simon Game</h1>
+
+    <section class="game-board" id="gameBoard" aria-label="Simon game board">
+      <button class="pad pad-green" data-color="green" id="padGreen" aria-label="Green pad"></button>
+      <button class="pad pad-red"   data-color="red"   id="padRed"   aria-label="Red pad"></button>
+      <button class="pad pad-yellow"data-color="yellow"id="padYellow"aria-label="Yellow pad"></button>
+      <button class="pad pad-blue"  data-color="blue"  id="padBlue"  aria-label="Blue pad"></button>
+    </section>
+
+    <section class="controls">
+      <div class="status">
+        <div>Score: <span id="score">0</span></div>
+        <div id="message" class="message">Press Start</div>
+      </div>
+
+      <div class="buttons">
+        <button id="startBtn" class="control-btn">Start</button>
+        <button id="strictBtn" class="control-btn" aria-pressed="false">Strict: Off</button>
+        <button id="resetBtn" class="control-btn">Reset</button>
+      </div>
+    </section>
+
+    <footer class="info">
+      <small>Use mouse / touch or keys G R Y B to play. Built with Web Audio API.</small>
+    </footer>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>
