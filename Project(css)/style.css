@@ -1,19 +1,36 @@
 body {
     font-family: "Montserrat", sans-serif;
+<<<<<<< HEAD
+=======
+    font-optical-sizing: auto;
+>>>>>>> 931b630 (spotify clone)
     margin: 0;
     background-color: black;
     color: white;
     overflow: hidden;
 }
+<<<<<<< HEAD
 .main{
     display: flex;
     height: 100vh;
 }
 .sidebar{
+=======
+
+.main {
+    display: flex;
+    /* height adjusted so scrolling views never duck under the music player */
+    height: calc(100vh - 72px);
+    padding: 0.5rem;
+}
+
+.sidebar {
+>>>>>>> 931b630 (spotify clone)
     background-color: black;
     width: 340px;
     border-radius: 1rem;
     margin-right: 0.5rem;
+<<<<<<< HEAD
     
 }
 .main-content{
@@ -30,17 +47,62 @@ body {
     width: 100%;
     height: 72px;
 }
+=======
+}
+
+.main_content {
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+/* --- CUSTOM DARK SCROLLBAR DESIGN --- */
+.main_content::-webkit-scrollbar {
+    width: 8px; /* Slimmer elegant scrollbar track */
+}
+
+.main_content::-webkit-scrollbar-track {
+    background: transparent; /* Makes the light browser track transparent */
+}
+
+.main_content::-webkit-scrollbar-thumb {
+    background: #555; /* Gray scroll indicator thumb */
+    border-radius: 4px;
+}
+
+.main_content::-webkit-scrollbar-thumb:hover {
+    background: #888; /* Slightly lighter gray highlight on hover */
+}
+
+.music_player {
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    height: 72px;
+}
+
+>>>>>>> 931b630 (spotify clone)
 a {
     text-decoration: none;
     color: white;
 }
+<<<<<<< HEAD
 .nav{
+=======
+
+.nav {
+>>>>>>> 931b630 (spotify clone)
     background-color: #121212;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100px;
+<<<<<<< HEAD
     padding: 0.5rem 0.75rem ;
 }
 .nav-option{
@@ -58,19 +120,53 @@ a {
     font-size: 1rem;
     margin-left: 1rem;
 }
+=======
+    padding: 0.5rem 0.75rem;
+}
+
+.nav-option {
+    line-height: 2.5rem;
+    padding: 0.5rem 1rem;
+    opacity: 0.5;
+}
+
+.nav-option i {
+    font-size: 1.25rem;
+    opacity: 0.5;
+}
+
+.nav-option a {
+    font-size: 1rem;
+    opacity: 0.5;
+}
+
+.nav-option:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+>>>>>>> 931b630 (spotify clone)
 .library {
     background-color: #121212;
     border-radius: 1rem;
     height: 100%;
     margin-top: 0.5rem;
+<<<<<<< HEAD
     padding: 0.5rem 0.75rem;
 }
 .options{
+=======
+    padding: 0.5rem 1rem;
+}
+
+.options {
+>>>>>>> 931b630 (spotify clone)
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+<<<<<<< HEAD
 .lib-option img{
     height: 1.25rem;
     width: 1.25rem;;
@@ -92,10 +188,36 @@ opacity: 0.7;
 .box{
     background-color: #232323;
     height: 8rem;
+=======
+.lib-option img {
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.icons {
+    font-size: 1.20rem;
+    display: flex;
+}
+
+.icons i {
+    opacity: 0.7;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    opacity: 1;
+}
+
+.box {
+    background-color: #232323;
+    height: 9rem;
+>>>>>>> 931b630 (spotify clone)
     border-radius: 0.75rem;
     margin: 0.75rem 0 1.75rem 0;
     padding: 0.75rem 1rem;
 }
+<<<<<<< HEAD
 .box-p1{
 font-size: 1rem;
 font-weight: 500;
@@ -109,11 +231,30 @@ opacity: 0.9;
     border: none;
     border-radius: 100px;
     padding: 0.25rem 1 rem;
+=======
+
+.box-p1 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.box-p2 {
+    font-size: 0.85rem;
+    opacity: 0.9;
+}
+
+.badge {
+    background-color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+>>>>>>> 931b630 (spotify clone)
     font-weight: 700;
     margin-top: 0.5rem;
     height: 2rem;
     width: fit-content;
 }
+<<<<<<< HEAD
 .dark-badge{
     background-color: black;
     color: white;
@@ -132,10 +273,35 @@ opacity: 0.9;
     margin-left: 0.75rem;
 }
 .sticky-nav-options{
+=======
+
+.dark-badge {
+    background-color: black;
+    color: white;
+}
+
+.sticky-nav {
+    position: sticky;
+    background-color: #121212;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    z-index: 2;
+}
+
+.sticky-nav-icons {
+    margin-left: 0.75rem;
+}
+
+.sticky-nav-options {
+>>>>>>> 931b630 (spotify clone)
     display: flex;
     justify-content: center;
     align-items: center;
 }
+<<<<<<< HEAD
 .nav-item {
     margin: 1rem;
 }
@@ -208,10 +374,123 @@ margin-bottom: 5px;
     opacity: 1;
 }
 .playback-bar{
+=======
+
+.nav-item {
+    margin-right: 1.5rem;
+    margin-bottom: 0.4rem;
+}
+
+@media (max-width:898px) {
+    .hide {
+        display: none;
+    }
+}
+
+.card {
+    background-color: #232323;
+    width: 200px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1.25rem;
+    margin-top: 1rem;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.card-info {
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+/* Fixed footer container & fine divider line layout */
+.footer {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 3rem;
+}
+
+.line {
+    width: 90%;
+    height: 1px;
+    border-top: 1px solid white;
+    opacity: 0.2;
+}
+
+/* --- MUSIC PLAYER REGION LAYOUT --- */
+.music_player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.album {
+    width: 25%;
+}
+
+.player {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls {
+    width: 25%;
+}
+
+.player-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.player-control-icon {
+    height: 1rem;
+    margin: 0 0.75rem;
+    cursor: pointer;
+}
+
+.play-btn {
+    height: 2rem;
+    opacity: 1;
+}
+
+.text-opacity {
+    opacity: 0.6;
+}
+
+.text-opacity:hover {
+    opacity: 1;
+}
+
+/* --- PLAYBACK TIMELINE TRACK SECTION --- */
+.playback-bar {
+    width: 100%;
+>>>>>>> 931b630 (spotify clone)
     display: flex;
     justify-content: center;
     align-items: center;
 }
+<<<<<<< HEAD
 .progress-bar{
 width: 70%;
 appearance: none;
@@ -230,4 +509,55 @@ cursor: pointer;
     background-color: rgb(23, 163, 23);
     border-radius: 50%;
     margin-top: -6px;
+=======
+
+.current-time,
+.total-time {
+    font-size: 0.75rem;
+    opacity: 0.7;
+    min-width: 35px;
+}
+
+.current-time {
+    text-align: right;
+    margin-right: 0.5rem;
+}
+
+.total-time {
+    text-align: left;
+    margin-left: 0.5rem;
+}
+
+.progress-bar {
+    width: 100%;
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.progress-bar::-webkit-slider-runnable-track {
+    background-color: #4d4d4d;
+    height: 4px;
+    border-radius: 2px;
+}
+
+.progress-bar::-webkit-slider-thumb {
+    appearance: none;
+    -webkit-appearance: none;
+    height: 12px;
+    width: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-top: -4px;
+    opacity: 0;
+}
+
+.progress-bar:hover::-webkit-slider-thumb {
+    opacity: 1;
+}
+
+.progress-bar:hover::-webkit-slider-runnable-track {
+    background-color: #1db954;
+>>>>>>> 931b630 (spotify clone)
 }
