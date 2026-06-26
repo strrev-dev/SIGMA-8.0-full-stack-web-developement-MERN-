@@ -30,7 +30,6 @@ body {
     width: 340px;
     border-radius: 1rem;
     margin-right: 0.5rem;
-<<<<<<< HEAD
     
 }
 .main-content{
@@ -47,45 +46,6 @@ body {
     width: 100%;
     height: 72px;
 }
-=======
-}
-
-.main_content {
-    background-color: #121212;
-    flex: 1;
-    border-radius: 1rem;
-    overflow: auto;
-    padding: 0 1.5rem 0 1.5rem;
-}
-
-/* --- CUSTOM DARK SCROLLBAR DESIGN --- */
-.main_content::-webkit-scrollbar {
-    width: 8px; /* Slimmer elegant scrollbar track */
-}
-
-.main_content::-webkit-scrollbar-track {
-    background: transparent; /* Makes the light browser track transparent */
-}
-
-.main_content::-webkit-scrollbar-thumb {
-    background: #555; /* Gray scroll indicator thumb */
-    border-radius: 4px;
-}
-
-.main_content::-webkit-scrollbar-thumb:hover {
-    background: #888; /* Slightly lighter gray highlight on hover */
-}
-
-.music_player {
-    background-color: black;
-    color: white;
-    position: fixed;
-    width: 100%;
-    bottom: 0px;
-    height: 72px;
-}
-
->>>>>>> 931b630 (spotify clone)
 a {
     text-decoration: none;
     color: white;
